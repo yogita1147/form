@@ -1,0 +1,205 @@
+body{
+  background-color: #f5f5fb;
+}
+.Tabs li > button {
+  /* background-color: gray;
+    color: white; */
+  color: #515151 !important;
+  border-top: 2px solid white !important;
+  border-left: 2px solid white !important;
+  border-right: 2px solid white !important;
+  transition: border 0.2s ease-in-out;
+}
+
+.Tabs li > .active {
+  color: #14117b !important;
+  border: 2px solid white !important;
+  border-bottom: 2px solid #14117b !important;
+}
+
+.feedbackInput {
+  height: 40px;
+  box-shadow: none;
+  /* background-color: #f8f8f8; */
+  border: 1px solid #e1e1e1;
+  /* border-left: 0; */
+  
+  border-radius:9px;
+}
+.feedbackInput:focus {
+  height: 40px;
+  box-shadow: none;
+  
+  border: 1px solid #e1e1e1;
+  /* border-left: 0;  */
+  
+}
+.feedbackTextArea {
+  box-shadow: none;
+  /* background-color: #f8f8f8; */
+  border: 1px solid #e1e1e1 !important;
+  /* border-left: 0;  */
+  
+  border-radius:9px;
+  width: 100%;
+}
+.feedbackTextArea:focus {
+  box-shadow: none;
+  /* background-color: #f8f8f8; */
+  border: 1px solid #e1e1e1 !important;
+  /* border-left: 0!important;  */
+ 
+  width: 100%;
+}
+.feedbackBtn {
+  background-color: #14117b;
+  color: white;
+  border-radius: 29px;
+  font-size: 13px;
+  font-size: 17px;
+    font-weight: 700;
+}
+.feedbackBtn:hover{
+  background-color: white;
+  color:#14117b;
+}
+/* option[value='1']:hover{
+   color:white;
+    background-color:rgb(170, 170, 170);
+
+} */
+.subscriptionSelect {
+  box-shadow: none;
+  /* background-color: #f8f8f8; */
+  border: 1px solid #e1e1e1;
+  /* border-left: 0; */
+  border-radius: 9px;
+  width: 100%;
+}
+.subscriptionSelect:focus {
+   box-shadow: none;
+ 
+  background-color: #f8f8f8;
+  border: 1px solid #e1e1e1;
+  border-left: 0;
+  border-radius: 4px; 
+  
+}
+.disabledOption:focus {
+  background-color: rgb(170, 170, 170);
+  color: white;
+}
+#inputFullName {
+  margin: 0;
+  padding-left: 38px;
+
+  background-image: url("../public/fullname.png");
+  background-repeat: no-repeat;
+  background-position: 1%;
+}
+#inputEmail {
+  margin: 0;
+  padding-left: 37px;
+
+  background-image: url("../public/email.png");
+  background-repeat: no-repeat;
+  background-position: 1%;
+}
+#inputCall {
+  margin: 0;
+  padding-left: 37px;
+
+  background-image: url("../public/call.png");
+  background-repeat: no-repeat;
+  background-position: 1%;
+}
+#inputDescription {
+  margin: 0;
+  padding-left: 37px;
+
+  background-image: url("../public/desscription.png");
+  background-repeat: no-repeat;
+  background-position-x: 1%;
+  background-position-y: 13%;
+  padding-top: 8px;
+}
+#myFile {
+  margin: 0;
+  padding-left: 30px;
+
+  background-image: url("../public/attach.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.hide_file {
+  position: absolute;
+  z-index: 1000;
+  opacity: 0;
+  cursor: pointer;
+  right: 0;
+  top: 0;
+  height: 100%;
+  font-size: 24px;
+  width: 100%;
+}
+/* .feedbackInput{
+    -webkit-appearance: none;
+    text-align: left;
+    -webkit-rtl-ordering:  left;
+ } */
+.feedbackInput::-webkit-file-upload-button {
+  -webkit-appearance: none;
+  float: right;
+  margin-right: -12px;
+  margin-bottom: 2px;
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+}
+
+.containerForm {
+  /* background-color: #f5f5fb; */
+  padding: 30px;
+}
+
+.containerFormInside {
+  background-color: white;
+  border-radius: 12px;
+
+  box-shadow: 2px 2px 14px 2px #aaaaaa;
+  /* width: 800px; */
+}
+.nav-tabs {
+  justify-content: center;
+}
+.containerPara {
+  /* width: 800px; */
+  font-size: 15px;
+}
+.questionColor {
+  color: #14117b;
+}
+#myplatform{
+    margin: 0;
+    padding-left: 30px;
+  
+    background-image: url("../public/platform.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+#mycart{
+    margin: 0;
+    padding-left: 30px;
+  
+    background-image: url("../public/cart.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.userLogo{
+  height:38px;
+  border-radius: 9px;
+  width: 11%;
+
+}
+
